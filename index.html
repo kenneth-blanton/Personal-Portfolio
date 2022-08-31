@@ -5,6 +5,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://kit.fontawesome.com/43b5bc5acb.js" crossorigin="anonymous"></script>
+		<script src="../assets/js/index.js" defer></script>
 	</head>
 	<body class="is-preload">
 
@@ -17,7 +19,125 @@
 					<div class="link-container">
 						<ul class="links">
 							<li><a href="index.html"><button class="button button1">Home</button></a></li>
-							<li><a href="contact.html"><button class="button button2">Contact</button></a></li>
+							<li>
+								<!-- Trigger/Open The Modal -->
+								<button id="scrollToTopBtn" class="modal-button button button2" href="#myModal1">Contact</button>
+
+								<!-- The Modal -->
+								<div id="myModal1" class="modal">
+
+								<!-- Modal content -->
+								<div class="modal-content">
+									<div class="modal-header">
+										<span class="close">&times;</span>
+										<h2>Chef Kiss Summary</h2>
+									  </div>
+									  <header class="major">
+										<h2 class="touch">Get In Touch With Me!</h2>
+									</header>
+									<div class="fcf-body">
+			
+										<div id="fcf-form">
+									
+										<form action="https://formsubmit.co/d15d550c93386b0a21f2b26d24185b30" method="POST">
+			
+											<div class="fcf-form-group">
+												<label for="Name" class="fcf-label">Your Name</label>
+												<div class="fcf-input-group">
+													<input type="text" name="Name" class="fcf-form-control" required>
+												</div>
+											</div>
+			
+											<input type="hidden" name="_next" value="https://codebykenneth.dev/contact.html">
+											<input type="hidden" name="_captcha" value="false">
+			
+											<div class="fcf-form-group">
+												<label for="Email" class="fcf-label">Your Email</label>
+												<div class="fcf-input-group">
+													<input type="email" id="email" name="Email" class="fcf-form-control" required>
+												</div>
+											</div>
+							
+											<div class="fcf-form-group">
+												<label for="Phone" class="fcf-label">Your Phone Number</label>
+												<div class="fcf-input-group">
+													<input type="text" id="phone" name="Phone" class="fcf-form-control" required>
+												</div>
+											</div>
+							
+											<label for="stateShip">Your state</label>
+											<br>
+												<select id="State" name="State">
+													<option value="AL">Alabama</option>
+													<option value="AK">Alaska</option>
+													<option value="AZ">Arizona</option>
+													<option value="AR">Arkansas</option>
+													<option value="CA">California</option>
+													<option value="CO">Colorado</option>
+													<option value="CT">Connecticut</option>
+													<option value="DE">Delaware</option>
+													<option value="DC">District Of Columbia</option>
+													<option value="FL">Florida</option>
+													<option value="GA">Georgia</option>
+													<option value="HI">Hawaii</option>
+													<option value="ID">Idaho</option>
+													<option value="IL">Illinois</option>
+													<option value="IN">Indiana</option>
+													<option value="IA">Iowa</option>
+													<option value="KS">Kansas</option>
+													<option value="KY">Kentucky</option>
+													<option value="LA">Louisiana</option>
+													<option value="ME">Maine</option>
+													<option value="MD">Maryland</option>
+													<option value="MA">Massachusetts</option>
+													<option value="MI">Michigan</option>
+													<option value="MN">Minnesota</option>
+													<option value="MS">Mississippi</option>
+													<option value="MO">Missouri</option>
+													<option value="MT">Montana</option>
+													<option value="NE">Nebraska</option>
+													<option value="NV">Nevada</option>
+													<option value="NH">New Hampshire</option>
+													<option value="NJ">New Jersey</option>
+													<option value="NM">New Mexico</option>
+													<option value="NY">New York</option>
+													<option value="NC">North Carolina</option>
+													<option value="ND">North Dakota</option>
+													<option value="OH">Ohio</option>
+													<option value="OK">Oklahoma</option>
+													<option value="OR">Oregon</option>
+													<option value="PA">Pennsylvania</option>
+													<option value="RI">Rhode Island</option>
+													<option value="SC">South Carolina</option>
+													<option value="SD">South Dakota</option>
+													<option value="TN">Tennessee</option>
+													<option value="TX">Texas</option>
+													<option value="UT">Utah</option>
+													<option value="VT">Vermont</option>
+													<option value="VA">Virginia</option>
+													<option value="WA">Washington</option>
+													<option value="WV">West Virginia</option>
+													<option value="WI">Wisconsin</option>
+													<option value="WY">Wyoming</option>
+												</select>
+									
+											<div class="fcf-form-group">
+												<label for="Message" class="fcf-label">Your message</label>
+												<div class="fcf-input-group">
+													<textarea id="message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+												</div>
+											</div>
+									
+													<button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+
+										</form>
+										</div>
+									
+									</div>
+								</div>
+
+								</div>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -32,24 +152,50 @@
 						<header class="major">
 							<h2>About Me!</h2>
 						</header>
-						<p>I am a web developer with a diverse array of skills that can be used in the tech industry such as diligence, 
-							work ethic, and a will to constantly learn and adapt. </p>
+						<p>
+							I am a web developer with a diverse array of skills that can be used in the tech industry such as 
+							diligence, work ethic, and a will to constantly learn and adapt. I started programming because I 
+							grew up as a gamer that loves the idea of building things. There's something special about making 
+							something from scratch that provides value and solves problems for others, that made me want to 
+							become a developer. Feel free to take a look at my programming skills below and get in touch with
+							me to make something useful together.
+						 </p>
+						 <a href="/assets/Resume.docx" download><button class="button button3"> Download Resume</button></a>
 					</section>
 
 					<section id="two">						
 						<h2>Skills</h2>
-						<p>		HTML
-							•	CSS
-							•	JavaScript
-							•	jQuery
+						<div class="htmlcssjs">
+							&ensp;
+							<i class="fa-brands fa-html5"></i>
+							&emsp; &ensp; &nbsp;
+							<i class="fa-brands fa-css3-alt"></i>
+							&ensp; &ensp; &ensp;
+							<i class="fa-brands fa-square-js"></i>
+						</div>
+							&emsp; &nbsp; HTML &ensp; &nbsp;
+							• &emsp; &nbsp; CSS &emsp;
+							• &ensp; JavaScript
+						<div class="css-frames">
+							<i class="fa-brands fa-bootstrap"></i>
+						</div>
+							Bootstrap
+						<div class="mobile">
+							<i class="fa-brands fa-swift"></i>
+							&emsp; &emsp;
+							<i class="fa-brands fa-android"></i>
+						</div>
+							Mobile Development (iOS and Android)
 							<br>
-							•	Mobile Development (iOS and Android)
-							<br>
+						<div class="talk">
+							<i class="fa-solid fa-comment"></i>
+							&emsp;
+							<i class="fa-solid fa-arrows-spin"></i>
+						</div>
 							•	Communication with people of all skill levels
 							•	Leadership/Collaboration with others
 							<br>
 							•	Adaptability to any situation
-						</p>
 					</section>
 
 				<!-- Two -->
@@ -59,7 +205,50 @@
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="https://chefkissunlimited.com/" class="image fit thumb"><img src="images/thumbs/IMG_7102.jpg" alt="" /></a>
 								<h3>Chef Kiss Unlimited</h3>
-								<p>E-Commerce site for chef and caterer</p>
+								<!-- Trigger/Open The Modal -->
+								<button class="modal-button button button4" href="#myModal3">View Details</button>
+
+								<!-- The Modal -->
+								<div id="myModal3" class="modal">
+
+								<!-- Modal content -->
+								<div class="modal-content">
+									<div class="modal-header">
+										<span class="close">&times;</span>
+										<h2>Chef Kiss Summary</h2>
+									  </div>
+									  <p>This is an E-Commerce site for chef and caterer that I made for a client</p>
+									  <br>
+									  <p>Technologies used</p>
+									  <div class="htmlcssjs">
+											&ensp;
+											<i class="fa-brands fa-html5"></i>
+											&emsp; &ensp; &nbsp;
+											<i class="fa-brands fa-css3-alt"></i>
+											&ensp; &ensp; &ensp;
+											<i class="fa-brands fa-square-js"></i>
+										</div>
+										&emsp; &nbsp; HTML &ensp; &nbsp;
+										• &emsp; &nbsp; CSS &emsp;
+										• &ensp; JavaScript
+										<p>	
+											<br>
+											<ul>
+												<li>I built this app from scratch and what I learned from making this site is</li>
+												<li>How to make an appealing app via CSS</li>
+												<li>Arrays and interactability with JavaScript</li>
+												<li>How to make a working Contact Form</li>
+												<li>How to set up a working checkout system for customers</li>
+											</ul>
+										</p>
+										<br>
+										<div class="modal-footer">
+											<button class="button button4"><b class="fa-solid fa-utensils"></b> View Details</button>
+											<button class="button button4"><b class="icon brands fa-github"></b> View Details</button>
+										</div>
+								</div>
+
+								</div>
 							</article>
 						</div>
 					</section>
@@ -70,7 +259,7 @@
 				<div class="inner">
 					<ul class="icons">
 						<li><a href="https://www.youtube.com/channel/UCsLrCycwbnAKLZBSAlNyyYQ" class="icon brands fa-youtube"><span class="label">Twitter</span></a></li>
-						<li><a href="https://github.com/kenneth-blanton" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://github.com/kenneth-blanton" class="icon brands fa-github"></a></li>
 						<li><a href="https://www.linkedin.com/in/kenneth-blanton-a57320220/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 					</ul>
 					<p>Email: kenneth.blanton22@gmail.com</p>
