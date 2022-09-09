@@ -1,0 +1,58 @@
+[
+    {
+        "date": "09-09-2022",
+        "accomplished": [
+                            "Fixed contact page. Was a server issue on the provider's end",
+                            "Studied how to use JSON more via The Coding Train's tutorial playlist",
+                            "Made blog page on portfolio using JSON"
+                        ],
+        "mission":       [                           
+                            "Making blog page on portfolio using JSON"
+                        ],
+        "next":         [
+                            "Make blog look better",
+                            "Continue working on Mass Effect API site",
+                            "Work with POST request on portfolio to update Progress Page"
+                        ]        
+    },
+
+    {
+        "date": "09-05-2022",
+        "accomplished": [
+                            "I started on Mass Effect API planet page",
+                            "There's one bug with one of the image links being outdated",
+                            "It's open source so I can try to fix it",
+                            "Learned how to convert JSON to HTML via template literals"
+                        ],
+        "next":         [
+                            "I'll be studying fetch and template literals the next few days",
+                            "Need to fix contact form on portfolio site",
+                            "Might make an API on portfolio for blog"
+                        ]        
+    },
+
+    {
+        "date": "09-04-2022",
+        "accomplished": [
+                            "I figured out how to get data from API using fetch",
+                            "Started learning back-end stuff this morning (APIs, Postman, Node.js)",
+                            "Started Game of Thrones API search site",
+                            "Started Budget website"
+                        ],
+        "next":         [
+                            "Figure out how to make multi-page API. (Max 50 per page. 43 pages of data.<br>Game of Thrones API Characters data)",
+                            "Finish budget site",
+                            "Start Mass Effect API project"
+                        ]        
+    },
+
+    {
+        "date": "08-31-2022",
+        "accomplished": [
+                            "Finished portfolio site", 
+                            "Wrote bio (About Me)",
+                            "Implemented font awesome for skills",
+                            "Learned modals and used it for description of projects and contact form"
+                        ]
+    }
+]
