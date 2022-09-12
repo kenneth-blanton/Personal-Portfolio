@@ -85,7 +85,7 @@ function taskTemplate(eachTask) {
   <div class="card">
       <p class="date">${eachTask.date}</p>     
       <p class="next">${eachTask.mission ? `<u>Mission of the Day</u><br>` + eachTask.mission.join("<br>"):""}</p>
-      <p class="acc">${eachTask.accomplished ? `<u>Accomplished</u><br>` + eachTask.accomplished.join("<br>"):""}</p>
-      <p class="next">${eachTask.next ? `<u>Next</u><br>` + eachTask.next.join("<br>"):""}</p>
+      <p class="acc">${eachTask.learned ? `<u>Learned</u><br>` + eachTask.learned.join("<br>"):""}</p>
+      <p class="next">${eachTask.next ? `<u>What's Next</u><br>` + eachTask.next.join("<br>"):""}</p>
   </div>`
 }

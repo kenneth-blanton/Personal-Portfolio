@@ -1,13 +1,13 @@
 [
     {
         "date": "09-09-2022",
-        "accomplished": [
-                            "Fixed contact page. Was a server issue on the provider's end",
-                            "Studied how to use JSON more via The Coding Train's tutorial playlist",
-                            "Made blog page on portfolio using JSON"
-                        ],
-        "mission":       [                           
+        "mission":      [                           
                             "Making blog page on portfolio using JSON"
+                        ],
+        "learned": [
+                            "Fixed contact page. Was a server issue on the provider's end",
+                            "Studied how to use JSON more via <a href='https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X'>The Coding Train's tutorial playlist</a>",
+                            "Made blog page on portfolio using JSON"
                         ],
         "next":         [
                             "Make blog look better",
@@ -18,7 +18,7 @@
 
     {
         "date": "09-05-2022",
-        "accomplished": [
+        "learned": [
                             "I started on Mass Effect API planet page",
                             "There's one bug with one of the image links being outdated",
                             "It's open source so I can try to fix it",
@@ -33,7 +33,7 @@
 
     {
         "date": "09-04-2022",
-        "accomplished": [
+        "learned": [
                             "I figured out how to get data from API using fetch",
                             "Started learning back-end stuff this morning (APIs, Postman, Node.js)",
                             "Started Game of Thrones API search site",
@@ -48,7 +48,7 @@
 
     {
         "date": "08-31-2022",
-        "accomplished": [
+        "learned": [
                             "Finished portfolio site", 
                             "Wrote bio (About Me)",
                             "Implemented font awesome for skills",

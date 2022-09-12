@@ -462,7 +462,7 @@ ul.links {
   .button5 {
 	background-color: #966868; 
 	color: white; 
-	padding: 5px 25px;
+	padding: 5px 3px;
   }
 
 /* Icons */
@@ -826,6 +826,16 @@ ul.links {
 		padding: 10px;
 		border: 2px solid #000;
 		background-color: RGBA(150, 104, 104, 0.9);
+	}
+
+	.card a {
+		color: #000;
+	}
+
+	.card a:hover,
+	.card a:focus {
+		cursor: pointer;
+		color: #212529 !important;
 	}
 
 /* XLarge */
