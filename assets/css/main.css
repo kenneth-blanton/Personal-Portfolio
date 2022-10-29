@@ -486,6 +486,10 @@ ul.links {
 				font-size: 1.5em;
 			}
 
+	.fa-dollar-sign {
+		color: lightgreen;
+	}
+
 /* Header */
 
 	#header {
