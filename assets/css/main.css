@@ -340,6 +340,7 @@ section > img {
   border: 0;
   display: inline-block;
   position: relative;
+  z-index: 0;
 }
 
 .image:before {
@@ -405,6 +406,7 @@ section > img {
   display: block;
   margin: 1em 0 2em 0;
   width: 100%;
+  z-index: -1;
 }
 
 .image.fit img {
